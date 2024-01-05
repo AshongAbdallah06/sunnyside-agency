@@ -1,0 +1,142 @@
+.testimonials {
+    padding: 50px 120px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.testimonials .heading {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    color:  hsl(210, 4%, 67%);
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user {
+    width: 300px;
+    text-align: center;
+}
+
+.profile-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.testimony {
+    margin-top: 30px;
+    line-height: 22px;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Barlow', sans-serif;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 0;
+} 
+
+.position {
+    color: hsl(210, 4%, 67%);
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+}
+
+.gallery .img {
+    /* height: 373px; */
+    width: 100%;
+}
+
+.extras {
+    text-align: center;
+    background-color: hsl(168, 70%, 66%);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.company-logo {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.menu {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: hsl(168, 34%, 41%);
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.menu .services,
+.menu .projects {
+    margin-left: 35px;
+}
+
+.menu .about:hover,
+.menu .services:hover,
+.menu .projects:hover {
+    color: white;
+}
+
+.social-media img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.social-media img:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(1000%) contrast(500%);
+}
+
+
+@media (max-width: 701px) {
+    
+
+    .testimonials .heading {
+        /* text-align: left; */
+        width: 400px;
+    } 
+
+    .profiles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user {
+        /* text-align: left; */
+        margin-bottom: 50px;
+    }
+
+    .name {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 625px) {
+    .testimonials .heading {
+        text-align: left;
+        width: 400px;
+    } 
+}
