@@ -28,8 +28,14 @@
     /* background-color: lightgreen; */
 }
 
+.heading {
+    font-family: 'Fraunces', serif;
+}
+
 .message {
+    font-family: 'Barlow', serif;
     /* width: 368px; */
+    font-size: 14px;
     margin-bottom: 40px;
     color: hsl(210, 4%, 67%);
 }
@@ -91,6 +97,7 @@
     text-align: center;
     display: flex;
     flex-shrink: 0;
+    font-family: 'Barlow', serif;
     flex-direction: column;
 }
 
@@ -132,7 +139,7 @@
     .p-body {
         bottom: 30px;
         width: 400px;
-        left: 30px;
+        left: 70px;
     }
 
     .gd-info {
@@ -143,5 +150,13 @@
 @media (max-width: 510px) {
     .image {
         width: 461px;
+    }
+}
+
+
+@media (max-width: 526px) {
+    .gd-body,
+    .p-body {
+        left: 30px;
     }
 }
