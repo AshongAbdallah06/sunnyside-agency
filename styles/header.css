@@ -1,131 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
 body {
-
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
+    font-family: "Fraunces", serif;
 }
 
-.header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.background {
-    position: absolute;
-    z-index: -1;
-    height: 500px;
+header {
     width: 100%;
+    background-image: url('/images/desktop/image-header.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 
 nav {
-    /* position: absolute; */
-    padding: 20px;
-    margin-top: 30px;
     display: flex;
-    /* width: 95%; */
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.left-side {
-    /* background-color: red; */
-    display: flex;
-}
-
-.logo {
-    cursor: pointer;
-    height: 30px;
-    /* height: 10px; */
-    display: inline-block;
-}
-
-.right-side-container {
-    display: flex;
-    position: relative;
-    justify-content: start;
-}
-
-.right-side {
-    /* background-color: lightblue; */
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    width: 300px;
-    color: white;
-    font-family: 'Barlow', sans-serif;
-    /* margin-top: -12px; */
-}
-
-.about,
-.services,
-.projects {
-    cursor: pointer;
-    font-size: 13px;
-}
-
-.contact-button {
-    border: none;
-    height: 30px;
-    margin-top: -25px;
     vertical-align: middle;
-    padding: 10px 30px;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 10px;
-    cursor: pointer;
-    background-color: white;
-}
-
-.contact-button:hover {
-    /* background-color: rgba(192, 233, 255, 0.5); */
-    background-color: hsla(210, 3%, 85%, 0.5);
-    color: white;
-}
-
-.header-body {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    position: relative;
 }
 
-.creatives {
-    color: white;
-    font-size: 50px;
-    font-family: 'Fraunces', serif;
-    letter-spacing: 10px;
-}
-
-.arrow-down {
-    position: absolute;
-    height: 80px;
-    bottom: -300px;
-    left: inherit;
-
-}
-
-@media (max-width: 700px) {
-    .creatives {
-        font-size: 30px;
-        width: 300px;
-        text-align: center;
-    }
-}
-
-.m-menu {
-    cursor: pointer;
-    height: 20px;
-}
-
-.mobile-menu {
-    display: none;
-    position: absolute;
-    right: 50px;
-    z-index: 1;
-    top: 120px;
+.right {
+    /* text-align: right; */
+    vertical-align: middle;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }

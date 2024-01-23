@@ -108,35 +108,3 @@
 .social-media img:hover {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(1000%) contrast(500%);
 }
-
-
-@media (max-width: 701px) {
-    
-
-    .testimonials .heading {
-        /* text-align: left; */
-        width: 400px;
-    } 
-
-    .profiles {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .user {
-        /* text-align: left; */
-        margin-bottom: 50px;
-    }
-
-    .name {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 625px) {
-    .testimonials .heading {
-        text-align: left;
-        width: 400px;
-    } 
-}

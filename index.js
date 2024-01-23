@@ -1,6 +1,3 @@
-console.log("HI")
-
-
 function checkStyles() {
     const width = window.innerWidth;
   
