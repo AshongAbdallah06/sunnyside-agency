@@ -1,0 +1,83 @@
+.box-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer-cont {
+    margin-top: -4px;
+}
+
+.container {
+    width: 50%;
+    position: relative;
+}   
+
+
+
+.container img {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin: 0;
+    width: 345px;
+}
+
+.subtext {
+    font-size: 15px;
+    color: gray;
+}
+
+.container button {
+    margin-left: -250px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container .transform-button {
+    border-bottom: 3px solid hsl(7, 99%, 70%);
+}
+
+.container .standout-button {
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+}
+
+.img-cont {
+    width: 50%;
+}
+
+.gd-text,
+.p-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.gd-text h1 {
+    color: hsl(167, 40%, 24%);
+    font-size: 40px;
+    margin: 0;
+    width: 345px;
+}
+
+.p-text h1 {
+    color: hsl(198, 62%, 26%);
+}
+
+.gd-text .subtext {
+    color: hsl(167, 40%, 24%);
+}
+
+.p-text .subtext {
+    color: hsl(198, 62%, 26%);
+}

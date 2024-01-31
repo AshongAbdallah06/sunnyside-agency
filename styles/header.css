@@ -2,17 +2,13 @@
 
 body {
     font-family: "Fraunces", serif;
+    margin: 0;
 }
 
-header {
+.header-image {
     width: 100%;
-    background-image: url('/images/desktop/image-header.jpg');
-    height: 100vh;
     width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
-
 
 nav {
     display: flex;
@@ -21,10 +17,64 @@ nav {
     align-items: center;
 }
 
+nav h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.left img {
+    cursor: pointer;
+}
+
 .right {
+    position: absolute;
+    top: 50px;
+    right: 30px;
     /* text-align: right; */
     vertical-align: middle;
-    width: 300px;
+    width: 380px;
+    color: white;
     display: flex;
     justify-content: space-between;
 }
+
+.right .menus {
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.right .menus:hover {
+    color: hsl(0, 3%, 87%);
+}
+
+.contact {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0 30px;
+    border-radius: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 35px;
+    transition: background-color 0.15s;
+}
+
+/* .contact:hover {
+    color: white;
+    background-color: hsl(0, 0%, 76%);
+} */

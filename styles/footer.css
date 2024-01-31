@@ -1,59 +1,3 @@
-.testimonials {
-    padding: 50px 120px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-}
-
-.testimonials .heading {
-    font-size: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Fraunces', sans-serif;
-    color:  hsl(210, 4%, 67%);
-}
-
-.profiles {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.user {
-    width: 300px;
-    text-align: center;
-}
-
-.profile-image {
-    height: 60px;
-    width: 60px;
-    border-radius: 30px;
-}
-
-.testimony {
-    margin-top: 30px;
-    line-height: 22px;
-    font-size: 15px;
-    color: gray;
-    font-family: 'Barlow', sans-serif;
-}
-
-.name {
-    font-weight: bold;
-    margin-top: 50px;
-    font-family: 'Fraunces', sans-serif;
-    margin-bottom: 0;
-} 
-
-.position {
-    color: hsl(210, 4%, 67%);
-    margin: 0;
-    font-size: 14px;
-    font-family: 'Barlow', sans-serif;
-}
-
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -61,7 +5,6 @@
 }
 
 .gallery .img {
-    /* height: 373px; */
     width: 100%;
 }
 

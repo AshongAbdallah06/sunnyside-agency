@@ -1,0 +1,141 @@
+@media (max-width: 760px) {
+
+    .header-image {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-button {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        right: 50px;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        height: 30px;
+    }
+
+    .mobile-menus {
+        z-index: 2;
+        background-color: white;
+        position: absolute;
+        right: 90px;
+        top: 120px;
+        padding: 30px;
+        text-align: center;
+        color: gray;
+        font-family: 'Barlow', serif;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .mobile-menus::before {
+        content: "";
+        display: block;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: -20px;
+        transform: rotate(-40deg);
+        right: 10px;
+    }
+
+    .mobile-menus p {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .mobile-menus p:hover {
+        color: black;
+    }
+
+    .menu-contact {
+        background-color: yellow;
+        border: none;
+        padding: 20px;
+        border-radius: 30px;
+        font-family: 'Barlow', serif;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        font-weight: bold;
+    }
+
+    .menu-contact:hover {
+        background-color: rgb(226, 226, 2);
+    }
+
+    nav h1 {
+        font-size: 35px;
+    }
+
+    .changed-img-cont,
+    .standout-cont {
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .container button {
+        margin-left: 0;
+    }
+
+    .box-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container h1 {
+        /* font-size: 40px; */
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .subtext {
+        /* font-size: 25px; */
+        width: 100%;
+    }
+
+    .container button {
+        font-size: 20px;
+    }
+
+    .users-cont {
+        flex-direction: column;
+    }
+
+    .user {
+        margin-bottom: 50px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width: 755px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 200px; */
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        left: 0;
+        white-space: nowrap;
+        z-index: 1;
+        /* background-color: red; */
+    }
+}

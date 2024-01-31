@@ -1,4 +1,9 @@
 .arrow-down {
+    position: absolute;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation: moveArrow 0.8s linear alternate infinite;
 }
 
