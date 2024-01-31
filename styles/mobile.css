@@ -11,7 +11,7 @@
         background-color: transparent;
         border: none;
         position: absolute;
-        right: 50px;
+        right:  0px;
     }
 
     .menu-icon {
@@ -23,7 +23,7 @@
         z-index: 2;
         background-color: white;
         position: absolute;
-        right: 90px;
+        right: 40px;
         top: 120px;
         padding: 30px;
         text-align: center;
